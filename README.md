@@ -70,10 +70,13 @@ Unlike traditional black-box models, this system provides **visual explanations*
 ---
 
 ## 🖼️ Sample Output
+
+<img width="1600" height="760" alt="WhatsApp Image 2026-05-03 at 9 21 14 PM" src="https://github.com/user-attachments/assets/d1fe97d2-2647-48b1-ba3d-dd154d39e219" />
 <img width="1567" height="744" alt="WhatsApp Image 2026-05-03 at 9 20 18 PM" src="https://github.com/user-attachments/assets/69975127-d5f9-4bdd-9ba2-abf17927aed6" />
 <img width="993" height="673" alt="Screenshot 2025-07-20 124943" src="https://github.com/user-attachments/assets/d8507885-40c3-48f1-a56d-97f0be20871c" />
 <img width="732" height="408" alt="Screenshot 2025-07-20 124556" src="https://github.com/user-attachments/assets/7af27364-1fab-4fd4-abcb-2114d6efd5e3" />
 <img width="1920" height="1080" alt="Screenshot 2025-06-24 151134" src="https://github.com/user-attachments/assets/bd0803da-7c0e-4284-951e-4a61116ef4c8" />
+
 
 
 
