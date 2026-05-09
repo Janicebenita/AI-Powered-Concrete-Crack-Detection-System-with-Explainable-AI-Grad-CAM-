@@ -246,8 +246,9 @@ python app.py
 
 ---
 
-# 📂 Project Structure
+# 📁 Project Structure
 
+```text
 ├── dataset/
 ├── models/
 ├── crack_outputs/
@@ -260,9 +261,6 @@ python app.py
 ├── README.md
 └── model.pth
 ```
-
----
-
 # 🔮 Future Improvements
 
 - Real-time video crack detection
