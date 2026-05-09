@@ -1,6 +1,4 @@
-````markdown id="k8z2tf"
 # 🚧 AI-Powered Concrete Crack Detection System with Explainable AI
-
 ## Deep Learning + Computer Vision for Automated Infrastructure Inspection
 
 <p align="center">
@@ -67,7 +65,6 @@ Grad-CAM Explainability
 Crack Localization
       ↓
 Final Prediction Output
-```
 
 ---
 
@@ -303,4 +300,4 @@ https://github.com/Janicebenita
 ✅ Industry-focused computer vision solution  
 ✅ Scalable and interpretable ML pipeline  
 ✅ Deployment-oriented deep learning project
-````
+```
