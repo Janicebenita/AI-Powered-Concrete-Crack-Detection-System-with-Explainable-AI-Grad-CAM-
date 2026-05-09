@@ -53,7 +53,6 @@ This project solves these limitations using an automated AI-driven inspection sy
 
 ## System Workflow
 
-```text
 Image Upload
       ↓
 Image Preprocessing
