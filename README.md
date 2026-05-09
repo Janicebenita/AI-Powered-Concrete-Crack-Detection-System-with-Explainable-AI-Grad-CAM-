@@ -128,6 +128,8 @@ The Grad-CAM explainability module:
 
 # 💼 Real-World Operational Impact
 
+The following operational estimates were derived based on industry-level deployment discussions and evaluation scenarios provided by L&T during internship.
+
 | Operational Area | Improvement |
 |---|---|
 | Inspection Time | Reduced from 25–30 days → 3–5 days |
@@ -135,6 +137,8 @@ The Grad-CAM explainability module:
 | Operational Cost | Approximately 72% reduction |
 | Estimated Savings | Approximately ₹9L per site |
 | ROI | Approximately 270% |
+
+> Note: The above values represent estimated industrial deployment projections and may vary depending on infrastructure scale, environmental conditions, and inspection workflows.
 
 ---
 
