@@ -278,7 +278,7 @@ python app.py
 
 ## Janice Benita F
 
-B.Tech – Information Technology  
+B.Tech – Information Technology (2023-2027 batch)  
 Machine Learning & Computer Vision Enthusiast
 
 ---
