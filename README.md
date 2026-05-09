@@ -105,7 +105,7 @@ Key observations:
 - Balanced classification performance across both classes
 
 <p align="center">
-  <img src="images/confusion_matrix.png" width="900"/>
+  <img src="confusion_matrix.png" width="900"/>
 </p>
 ---
 ### Performance Summary
@@ -134,7 +134,7 @@ The model achieved an outstanding:
 The ROC analysis confirms that the proposed model performs significantly better than random classification and maintains excellent predictive capability across varying thresholds.
 
 <p align="center">
-  <img src="images/roc_curve_analysis.png" width="1000"/>
+  <img src="roc_curve_analysis.png" width="1000"/>
 </p>
 
 ### ROC Analysis Highlights
