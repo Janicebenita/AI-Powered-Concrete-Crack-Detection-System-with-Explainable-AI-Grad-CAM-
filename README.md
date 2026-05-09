@@ -248,7 +248,6 @@ python app.py
 
 # 📂 Project Structure
 
-```text
 ├── dataset/
 ├── models/
 ├── crack_outputs/
