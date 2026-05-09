@@ -93,7 +93,62 @@ Final Prediction Output
 | Explainability | Grad-CAM |
 
 ---
+## 📌 Confusion Matrix Analysis
 
+The confusion matrix below demonstrates the classification performance of the fine-tuned ResNet-18 crack detection model.
+
+Key observations:
+
+- High True Positive (TP) rate for crack detection
+- Strong True Negative (TN) performance for non-crack classification
+- Low False Positive (FP) and False Negative (FN) rates
+- Balanced classification performance across both classes
+
+<p align="center">
+  <img src="images/confusion_matrix.png" width="900"/>
+</p>
+---
+### Performance Summary
+
+| Metric | Score |
+|---|---|
+| Accuracy | 95.70% |
+| Precision | 95.10% |
+| Recall | 96.20% |
+| F1-Score | 95.60% |
+| Specificity | 95.28% |
+| Total Samples | 10,034 |
+
+---
+
+## 📈 ROC Curve & AUC Analysis
+
+The ROC (Receiver Operating Characteristic) curve demonstrates the discriminative capability of the ResNet-18 model.
+
+The model achieved an outstanding:
+
+- AUC Score: **0.974**
+- High sensitivity and specificity balance
+- Strong crack vs non-crack separability
+
+The ROC analysis confirms that the proposed model performs significantly better than random classification and maintains excellent predictive capability across varying thresholds.
+
+<p align="center">
+  <img src="images/roc_curve_analysis.png" width="1000"/>
+</p>
+
+### ROC Analysis Highlights
+
+| Metric | Value |
+|---|---|
+| AUC Score | 0.974 |
+| Sensitivity (TPR) | 0.962 |
+| Specificity (TNR) | 0.929 |
+| Precision (PPV) | 0.951 |
+| Accuracy | 0.957 |
+| Optimal Threshold | 0.42 |
+
+---
 ## Crack Detection Results
 
 ### ✅ Cracked Surface Prediction
