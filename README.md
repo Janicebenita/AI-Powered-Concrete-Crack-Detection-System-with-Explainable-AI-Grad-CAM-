@@ -355,4 +355,14 @@ https://github.com/Janicebenita
 ✅ Industry-focused computer vision solution  
 ✅ Scalable and interpretable ML pipeline  
 ✅ Deployment-oriented deep learning project
-```
+---
+
+# ⭐ If You Like This Project
+
+If you found this project useful or interesting:
+
+⭐ Give it a star on GitHub  
+🍴 Feel free to fork the repository  
+💡 Contributions, suggestions, and feedback are always welcome!
+
+---
