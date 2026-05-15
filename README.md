@@ -2,7 +2,7 @@
 ## Deep Learning + Computer Vision for Automated Infrastructure Inspection
 
 <p align="center">
-  <img src="project_overview.png" width="1000"/>
+  <img src="Gemini_Generated_Image_nfnhe4nfnhe4nfnh.png" width="1000"/>
 </p>
 
 ---
