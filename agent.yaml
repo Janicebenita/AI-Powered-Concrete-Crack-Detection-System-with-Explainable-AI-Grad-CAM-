@@ -1,0 +1,7 @@
+spec_version: "0.1.0"
+name: concrete-crack-reviewer
+version: "0.1.0"
+description: >-
+  Reviews concrete-surface images using the project's crack detection,
+  classification, localization, and Grad-CAM evidence and prepares an
+  explainable inspection summary for qualified human review.
