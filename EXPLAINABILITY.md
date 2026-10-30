@@ -11,3 +11,9 @@ Inputs include a concrete-surface image, preprocessing configuration, trained YO
 ## Limits and known constraints
 
 The system can miss real cracks or incorrectly flag shadows, joints, stains, texture, lighting artifacts, or surface damage as cracks. Dataset shift, image quality, camera angle, preprocessing, threshold selection, and training-data representativeness can materially change performance. Bounding boxes and Grad-CAM do not measure crack depth, width, propagation, severity, load-bearing impact, or structural safety. The project is an inspection-support and research tool, and every result requires qualified human review and appropriate on-site assessment.
+
+## Implementation in This Repository
+
+The executable analysis is contained in `crack_detection.ipynb`, with its Python dependencies declared in `requirements.txt`. The notebook performs the repository's image preparation, model execution, evaluation, and Grad-CAM visualization steps; its rendered predictions and heatmaps are the evidence exposed to a reviewer.
+
+The OpenGAP files document that concrete-image outputs are decision support only. No autonomous inspection, repair authorization, or structural-safety decision is implemented in this repository.
