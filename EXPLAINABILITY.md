@@ -14,6 +14,6 @@ The system can miss real cracks or incorrectly flag shadows, joints, stains, tex
 
 ## Implementation in This Repository
 
-The executable analysis is contained in `crack_detection.ipynb`, with its Python dependencies declared in `requirements.txt`. The notebook performs the repository's image preparation, model execution, evaluation, and Grad-CAM visualization steps; its rendered predictions and heatmaps are the evidence exposed to a reviewer.
+`crack_detection.ipynb` contains the image preparation, model execution, evaluation, and Grad-CAM workflow. `agent.py` implements `review_detection(result)`, a deterministic review boundary that consumes the notebook/model outputs, bounds the reported probability, retains bounding boxes and Grad-CAM overlap as evidence, reports uncertainty when support is weak or missing, and always requires human inspection. `test_agent.py` verifies that localized evidence is preserved.
 
-The OpenGAP files document that concrete-image outputs are decision support only. No autonomous inspection, repair authorization, or structural-safety decision is implemented in this repository.
+The worker does not pretend to run a model when artifacts are absent and does not infer crack depth or structural safety. No autonomous inspection, repair authorization, or structural-safety decision is implemented.
